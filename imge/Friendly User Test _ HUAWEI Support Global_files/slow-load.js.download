@@ -1,0 +1,36 @@
+$(document).ready(function(){
+    var trigger = false;
+
+    //服务首页且需要优化分批加载，实现滑动加载
+    $(window).scroll(function() {
+        var scrollTop = document.documentElement.scrollTop || document.body.scrollTop;
+        if(scrollTop > 150 && !trigger){
+            loadSvgCss();
+        }
+    })
+
+    function loadSvgCss(){
+        trigger = true;
+        $("head").append("<link>");
+        var css = $("head").children().last();
+        css.attr({
+              rel:  "stylesheet",
+              type: "text/css",
+              href: "/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/css/slow-load-svg.css"
+        });
+    }
+
+    // np站点list页面内容少，icon不加载问题
+    if($(".v3-contactus.v3-section").length > 0){
+        var $v3Contactus = $(".v3-contactus-pc");
+        if($(window).innerWidth() < 768){
+            $v3Contactus = $(".v3-contactus-mb");
+        }
+        var v3ContactusTop = $v3Contactus.offset().top;
+        var loadHeight = $(window).innerHeight() - 40;
+        // 组件到浏览器顶部高度小于浏览器视窗高度加载css文件
+        if( v3ContactusTop < loadHeight) {
+            loadSvgCss();
+        }
+    }
+})

@@ -1,0 +1,94 @@
+.v3-contactus .tel {
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/v3-icons.svg);
+}
+
+.v3-contactus .pdtel {
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/v3-icons.svg);
+}
+
+.v3-contactus .online {
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/v3-icons.svg);
+}
+
+.v3-contactus .service_center {
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/v3-icons.svg);
+}
+
+.v3-contactus .store {
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/v3-icons.svg);
+}
+
+.v3-contactus .WeChart {
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/v3-icons.svg);
+}
+
+.v3-contactus .email {
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/v3-icons.svg);
+}
+
+.v3-contactus .community {
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/v3-icons.svg);
+}
+
+.v3-contactus .Weibo {
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/v3-icons.svg);
+}
+.v3-recommend .swiper-container p .v3-article-view:before{
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/view.svg);
+}
+.v3-recommend .swiper-container p .v3-article-score:before{
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/score.svg);
+}
+.huawei-v3 .footer-top .cnt-wrap .follow-us li a{
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-v3/images/v3-icon.svg);
+}
+.csv4-link a:before{
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-v3/images/v3-icon.svg);
+}
+.popularizes-region-component-list-text a.more_link:before{
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-v3/images/v3-icon.svg);
+}
+.support-v4.v3-announcement a.v3-more:before{
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-v3/images/v3-icon.svg);
+}
+.huawei-v3 .bread-crumb b::before{
+    background-image: url(/etc/designs/huawei-cbg-site/clientlib-v3/images/v3-icon.svg)
+}
+
+@media screen and (min-width: 1025px){
+    .v3-arraw-white::after {
+        background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/v3-icons.svg);
+    }
+    .v3-arraw-gray::after {
+        background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/v3-icons.svg);
+    }
+}
+
+@media (max-width: 1023px){
+    .huawei-v3 .footer-top .cnt-wrap .list .list-h3 .arrow-icon{
+        background-image:url(/etc/designs/huawei-cbg-site/clientlib-v3/images/v3-icon.svg);
+    }
+}
+@media(min-width:1200px) {
+    .csv4-huawei-lecture .huawei-lecture_slide .swiper-pagination-bullet-active .swiper-pagination-bullet-circle {
+        background-image: url(/etc/designs/huawei-cbg-site/clientlib-v3/images/to-play-image.svg);
+    }
+}
+
+@media (max-width: 767px){
+    .v3-recommend .v3-recommend-title-container>span.v3-recommend-title-container-score:before{
+        background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/score.svg);
+    }
+    .v3-recommend .v3-recommend-title-container>span.v3-recommend-title-container-view:before{
+        background-image: url(/etc/designs/huawei-cbg-site/clientlib-support-v2/support-public/img/v3/view.svg);
+    }
+    .support-v4.v3-announcement a.v3-more:before{
+        background-image:url(/etc/designs/huawei-cbg-site/images/support-v3/csv4_arrow_mob.svg);
+    }
+    .csv4-link a:before{
+        background-image:url(/etc/designs/huawei-cbg-site/images/support-v3/csv4_arrow_mob.svg);
+    }
+    .popularizes-region-component-list-text a.more_link:before{
+        background-image:url(/etc/designs/huawei-cbg-site/images/support-v3/csv4_arrow_mob.svg);
+    }
+}
