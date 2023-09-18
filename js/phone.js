@@ -103,7 +103,7 @@ const showPhoneDetails = (phone) =>{
         <p><span class="font-bold">Brand: </span>${phone?.brand}</p>
         
 
-        <p><span class="font-bold">Release data : </span>${phone?.others?.GPS}</p>
+        <p><span class="font-bold">Release data : </span>${phone?.others?.GPS || 'No GPS available'}</p>
     
     `
 
